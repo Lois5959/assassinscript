@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body><main>
+    <table class="tableau-style"><tr>
+            <th>Image</th>
+            <th>Nom</th>
+            <th>Description</th>
+        </tr>
+        
+        <tr><td><a href="https://www.mcdonalds.fr/" target="_blank"><figure><img src="images/artin-bakhan-8w4vzmgTQFk-unsplash.jpg" alt="" height="200"></td> </figure></a>
+             <td>MacDonald</td>
+            <td>Restauration Rapide</td></tr>
+
+        <tr><td><a href="https://www.starbucks.fr/" target="_blank"><figure><img src="images/ira-ostafiichuk-r1gTcJqJfCk-unsplash.jpg" alt="" height="200"></td></figure></a>
+             <td>Starbucks</td>
+            <td>Salon de thé</td></tr>
+
+        <tr> <td><a href="http://www.motovente.com/" target="_blank"><figure><img src="images/spencer-davis-HJSYiiRzIkg-unsplash.jpg" alt="" height="200"></td></figure></a>
+              <td>MotoVente</td>
+            <td>Vente de moto</td></tr>
+           
+            <td></td>
+            <td></td>
+        
+        <tr><td><a href="https://www.fitnesspark.fr/" target="_blank"><figure><img src="images/danielle-cerullo-CQfNt66ttZM-unsplash.jpg" alt="" height="200"></td></figure></a>
+             <td>Fitness Park</td>
+            <td>Salle de Musculation</td></tr>    
+
+            <tr><td><a href="https://www.apple.com/fr/" target="_blank"><figure><img src="images/domenico-loia-hGV2TfOh0ns-unsplash.jpg" alt="" height="200"></td></figure></a>
+                <td>Apple</td>
+                 <td>Vente d'électronique</td></tr>
+</table>
+        
+
+
+<ul>
+    <li>Poisson</li>
+    <li>Poulet</li>
+    <li>Légumes
+        <ul>
+            <li>Carotte</li>
+            <li>Courgette</li>
+            <li>Tomate</li>
+        </ul>
+    </li>
+    <li>Boisson</li>
+</ul>
+
+<form action="#" method="get">
+<label> La ou les famille(s) de métiers du
+    numérique qui m'intéresse(nt): </label> <br>
+    
+    <label for="managment">Management ou
+        Coordinateur dans la production et l'évolution
+    <input type="checkbox" name="managment" id="managemnt" value="managemnt"> 
+        
+</label><br>
+
+<label for="designer">Product Designer
+<input type="checkbox" name="designer" id="designer" value="designer">
+
+</label><br>
+
+<label for="developppeur">Développeur
+<input type="checkbox" name="developpeur" id="developpeur" value="developpeur">
+
+</label><br>
+
+<label for="infrastructure Web">L’infrastructure Web
+<input type="checkbox" name="infrastructure Web" id="infrastructure Web" value="infrastructure Web">
+</label><br>
+
+<label for="Autre">Autre, précisez :
+<input type="checkbox" name="Autre" id="Autre" value="Autre">
+
+</label>
+<input type="text"/>Mettez le nom du métier <br/>
+
+<input type="submit"/> <br/>
+</form>
+<header>
+        <center><h1>Votre résérvation d'hôtel</h1></center><br/>
+        <center><h2>*champs obligatoire</h2></center>
+</header> <hr/>
+
+<form methode="get">
+    <section>
+<label for="Name">Votre Nom:* <br>
+    <input type="text" placeholder="Nom de famille" required name="Name">
+</label> <br><br>
+
+<label for="Surname">Votre Prénom:*</label> <br>
+<input type="text" placeholder="Prénom" required name="Surname"> <br><br>
+
+<label for="Number">Votre Numéro de Téléphone:*</label> <br>
+<input type="tel" placeholder="0694643469" required name="Number"> <br><br>
+
+<label for="Mail">Adresse e-mail:*</label> <br>
+<input type="email" required name="Mail"> <br><br>
+
+<label for="Ville">Selectionner la ville:</label> <br>
+<select name="Ville"> 
+    <option value="Lille">Lille</option>
+    <option value="Paris">Paris</option>
+    <option value="Bordeaux">Bordeaux</option>
+    <option value="Marseille">Marseille</option>
+    <option value="Nantes">Nantes</option>
+    <option value="Lyon">Lyon</option>
+    <option value="LaRochelle">La Rochelle</option>
+    <option value="Poitier">Poitier</option>
+    <option value="Toulouse">Toulouse</option>
+</select> <br><br>
+
+<label for="Arrivée">Date d'arrivée:</label> <br>
+<input type="date" min="2023-10-31" name="Arrivée" required> <br> <br>
+
+<label for="personnes">Nombre de personne:*</label> <br>
+<input type="number" min="1" required name="personnes"> <br><br>
+
+<label for="Options">Vos options:</label> <br>
+
+<label for="Jacuzzi">Climatisation<input type="checkbox" name="Climatisation" id="Climatisation" value="Climatisation"></label>
+<label for="MiniBar">Mini Bar<input type="checkbox" name="MiniBar" id="MiniBar" value="MiniBar"></label>
+<label for="Jacuzzi">Jacuzzi<input type="checkbox" name="Jacuzzi" id="Jacuzzi" value="Jacuzzi"></label> <br><br>
+
+ <textarea name="commentaire" id="commentaire" cols="30" rows="10">Ajoutez un commentaire...</textarea> <br><br>
+
+ <label for="GCV">Acceptation des Conditions Générale de Ventes (CGV)*</label> <br>
+ <label for="Accepte"><input type="radio" name="Choix" id="Accepte" value="Accepte" required>J'accepte</label>
+ <label for="Refuse"><input type="radio" name="Choix" id="Refuse" value="Refuse" required>Je refuse</label> <br><br>
+
+ <button type="submit" name="submit">Envoyer ma Demande:</button>
+</section> <hr/>
+
+
+ <section>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae eveniet possimus neque, voluptates dolor dignissimos quasi porro ab maiores voluptas inventore explicabo tempora deserunt! Ducimus beatae sunt officiis nemo?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus repudiandae id laboriosam blanditiis animi, eligendi quae veniam reprehenderit! Fugit, tenetur. Deleniti eaque quod officia velit eligendi pariatur rem dolorum vel!Lorem</p>
+<br>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt repudiandae ducimus quas consequuntur eveniet optio, facilis quibusdam illo possimus. Eaque numquam ipsa enim omnis nisi. Laborum distinctio eos cupiditate reprehenderit!Loremlorem</p>
+</section> <hr/>
+
+</form>
+
+
+</main>
+</body>
+</html>
+
